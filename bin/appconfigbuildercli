@@ -68,5 +68,5 @@ appConfigBuilder.buildStream(target, opts)
 	.pipe(vfs.dest(opts.dist))
 	.on('end', function() {
 		console.log(chalk.grey('   Loader: ' + appConfigBuilder.name));
-		console.log(chalk.grey('   End-pooint: ' + target + '\n'));
+		console.log(chalk.grey('   End-point: ' + target + '\n'));
 	});
